@@ -47,7 +47,7 @@ pipeline{
                 '''    
             }
         }
-        SATGE('Verify'){
+        stage('Verify'){
             steps{
                 bat '''
                     echo APP Deployed Successfully
